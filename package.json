@@ -1,0 +1,22 @@
+{
+  "name": "@samuelmarina/is-odd",
+  "version": "1.0.0",
+  "description": "Is the number odd?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelmarina/is-odd.git"
+  },
+  "keywords": [
+    "odd"
+  ],
+  "author": "Samuel Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelmarina/is-odd/issues"
+  },
+  "homepage": "https://github.com/samuelmarina/is-odd#readme"
+}
