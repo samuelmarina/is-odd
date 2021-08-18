@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="text"></div>
+    <button id="btn">Click Me</button>
+
+    <script>
+        const btn = document.getElementById('btn');
+        const text = document.getElementById('text');
+        i = 1000001;
+        btn.addEventListener('click', function(){
+            if(i%2 == 0){
+                v = 'true';
+            }else{
+                v = 'false';
+            }
+           
+           i++;
+           console.log(`if(number === ${i}) return ${v};`)
+           text.innerHTML += `if(number === ${i}) return ${v}; <br>`
+        })
+    </script>
+</body>
+</html>
