@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/samuelmarina/is-odd/issues"
   },
-  "homepage": "https://github.com/samuelmarina/is-odd#readme"
+  "homepage": "https://github.com/samuelmarina/is-odd#readme",
+  "dependencies": {
+    "@samuelmarina/is-even": "^1.0.9"
+  }
 }
