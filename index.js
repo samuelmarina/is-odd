@@ -40,6 +40,10 @@ function isOdd(number){
     else if (number < 20000000 && number > 18000000){
         return twentyMil(number);
     }
+    else{
+        number = number - 1;
+        return isOdd(number);
+    }
 }
 
 export default isOdd;
