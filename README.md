@@ -14,7 +14,7 @@ var isOdd = require('@samuelmarina/is-odd');
 isOdd(1); //true
 isOdd(2); //false
 isOdd(3); //true
-// And so on... just for a little while
+// And so on... FOREVER!
 ```
 ## About
 This is a 100% serious project, and it is made to help the community. I figured it out that people also would like to know when a number is odd, and with the npm package [@samuelmarina/is-even](https://www.npmjs.com/package/@samuelmarina/is-even) it was not completely clear, so I decided to create this one as well. Remember, all this hard work is because I care about the community
